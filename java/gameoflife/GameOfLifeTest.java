@@ -79,8 +79,8 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . .\n" +
-                         ". . .\n" +
-                         ". . .", g.toString());
+                        ". . .\n" +
+                        ". . .", g.toString());
     }
 
     @Test
@@ -95,8 +95,8 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . .\n" +
-                         ". . .\n" +
-                         ". . .", g.toString());
+                        ". . .\n" +
+                        ". . .", g.toString());
     }
 
     @Test
@@ -111,8 +111,8 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . .\n" +
-                         ". . .\n" +
-                         ". . .", g.toString());
+                        ". . .\n" +
+                        ". . .", g.toString());
     }
 
     @Test
@@ -127,8 +127,8 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . .\n" +
-                         ". . .\n" +
-                         ". . .", g.toString());
+                        ". . .\n" +
+                        ". . .", g.toString());
     }
 
     @Test
@@ -143,8 +143,8 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". X .\n" +
-                         ". X .\n" +
-                         ". X .", g.toString());
+                        ". X .\n" +
+                        ". X .", g.toString());
     }
 
     @Test
@@ -159,8 +159,8 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . .\n" +
-                         "X X X\n" +
-                         ". . .", g.toString());
+                        "X X X\n" +
+                        ". . .", g.toString());
     }
 
     @Test
@@ -177,9 +177,9 @@ public class GameOfLifeTest {
         Assert.assertEquals(
 
                 ". . . .\n" +
-                         ". X X .\n" +
-                         ". X X .\n" +
-                         ". . . .", g.toString());
+                        ". X X .\n" +
+                        ". X X .\n" +
+                        ". . . .", g.toString());
     }
 
     @Test
@@ -196,10 +196,10 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . . . .\n" +
-                         ". X X . .\n" +
-                         ". X . X .\n" +
-                         ". . X . .\n" +
-                         ". . . . .", g.toString());
+                        ". X X . .\n" +
+                        ". X . X .\n" +
+                        ". . X . .\n" +
+                        ". . . . .", g.toString());
     }
 
     @Test
@@ -217,11 +217,11 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . . . . .\n" +
-                         ". . . . . .\n" +
-                         ". . X X X .\n" +
-                         ". X X X . .\n" +
-                         ". . . . . .\n" +
-                         ". . . . . .", g.toString());
+                        ". . . . . .\n" +
+                        ". . X X X .\n" +
+                        ". X X X . .\n" +
+                        ". . . . . .\n" +
+                        ". . . . . .", g.toString());
     }
 
 
@@ -240,11 +240,11 @@ public class GameOfLifeTest {
         g.generateNextState();
         Assert.assertEquals(
                 ". . . . . .\n" +
-                         ". . . X . .\n" +
-                         ". X . . X .\n" +
-                         ". X . . X .\n" +
-                         ". . X . . .\n" +
-                         ". . . . . .", g.toString());
+                        ". . . X . .\n" +
+                        ". X . . X .\n" +
+                        ". X . . X .\n" +
+                        ". . X . . .\n" +
+                        ". . . . . .", g.toString());
     }
 
 }
